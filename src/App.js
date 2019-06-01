@@ -1,16 +1,18 @@
-import React from "react";
+import React from 'react';
 
-import Nav from "./components/Nav";
-import Header from "./components/Header";
+import AppContext from './services/context';
 
-import "./App.css";
+import Nav from './components/Nav';
+import Header from './components/Header';
+
+import './App.css';
 
 function App() {
   return (
-    <>
+    <AppContext>
       <Nav />
       <Header />
-    </>
+    </AppContext>
   );
 }
 
