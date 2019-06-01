@@ -1,9 +1,15 @@
 import React from "react";
 
+import Nav from "./components/Nav";
+
 import "./App.css";
 
 function App() {
-  return <h1>Properties Dashboard</h1>;
+  return (
+    <>
+      <Nav />
+    </>
+  );
 }
 
 export default App;
