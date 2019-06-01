@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "owner": {
+        "name": "John Doe",
+        "phone": 5573216779,
+        "email": "john@thedoecompany.com"
+      },
+      "details": {
+        "address": "Luis Spota 146, San Simón",
+        "zipcode": "03660",
+        "city": "Ciudad de México",
+        "location": [-99.1472499, 19.3774119]
+      }
+    }
+  ]
+}
