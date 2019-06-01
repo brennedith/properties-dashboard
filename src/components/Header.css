@@ -1,0 +1,29 @@
+.Filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 50px;
+}
+
+.Filter h1 {
+  font-size: 1.8em;
+}
+
+.Filter .input-field input,
+.Filter .input-field button {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.Filter .input-field input {
+  border-right: 0;
+  border-start-start-radius: 5px;
+  border-end-start-radius: 5px;
+}
+
+.Filter .input-field button {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-start-end-radius: 5px;
+  border-end-end-radius: 5px;
+}
