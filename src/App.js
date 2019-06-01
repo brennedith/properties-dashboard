@@ -1,19 +1,16 @@
 import React from 'react';
 
-import AppContext from './services/context';
-
-import Nav from './components/Nav';
-import Header from './components/Header';
+import { ContextProvider } from './services/context';
+import PropertiesPage from './pages/Properties';
 
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <AppContext>
-      <Nav />
-      <Header />
-    </AppContext>
+    <ContextProvider>
+      <PropertiesPage />
+    </ContextProvider>
   );
-}
+};
 
 export default App;

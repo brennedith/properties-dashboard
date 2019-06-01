@@ -1,7 +1,9 @@
 import axios from 'axios';
 
 const endpoint =
-  process.env.NODE_ENV === 'production' ? 'TBD' : 'http://localhost:5000/';
+  process.env.NODE_ENV === 'production'
+    ? 'TBD'
+    : 'http://localhost:5000/properties';
 
 class PropertiesService {
   service = axios.create({
