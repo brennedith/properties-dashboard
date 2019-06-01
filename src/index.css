@@ -1,13 +1,33 @@
-body {
+/* Open Sans font from Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+/* Basic CSS Reset */
+*,
+*::before,
+*::after {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  padding: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+/* App background color and font behavior*/
+body {
+  background-color: #f4f6f8;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-display: fallback;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+/* Resets styles of headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 1em;
 }
