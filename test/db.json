@@ -12,7 +12,8 @@
         "zipcode": "03660",
         "city": "Ciudad de México",
         "location": [-99.1472499, 19.3774119]
-      }
+      },
+      "price": 1400000
     }
   ]
 }
