@@ -5,8 +5,10 @@ import PropertiesProvider from '../services/properties';
 
 import Nav from './components/Nav';
 import Header from './components/Header';
+import Content from './components/Content';
+import Properties from './components/Properties';
 
-function App() {
+function PropertiesPage() {
   const { dispatch } = useContext(AppContext);
 
   useEffect(() => {
@@ -29,8 +31,11 @@ function App() {
     <>
       <Nav />
       <Header />
+      <Content>
+        <Properties />
+      </Content>
     </>
   );
 }
 
-export default App;
+export default PropertiesPage;
