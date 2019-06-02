@@ -12,18 +12,17 @@
 
 .Filter .input-field input,
 .Filter .input-field button {
+  font-size: 1em;
   padding: 10px;
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .Filter .input-field input {
   border-right: 0;
-  border-start-start-radius: 5px;
-  border-end-start-radius: 5px;
+  border-radius: 7px 0 0 7px;
 }
 
 .Filter .input-field button {
   background-color: rgba(255, 255, 255, 0.25);
-  border-start-end-radius: 5px;
-  border-end-end-radius: 5px;
+  border-radius: 0 7px 7px 0;
 }
