@@ -14,6 +14,51 @@
         "location": [-99.1472499, 19.3774119]
       },
       "price": 1400000
+    },
+    {
+      "id": 2,
+      "owner": {
+        "name": "Jane Doe",
+        "phone": 5573213453,
+        "email": "jane@thedoecompany.com"
+      },
+      "details": {
+        "address": "Calzada de Tlalpan 583, Alamos",
+        "zipcode": "03678",
+        "city": "Ciudad de México",
+        "location": [-99.1472499, 19.3774119]
+      },
+      "price": 1550000
+    },
+    {
+      "id": 3,
+      "owner": {
+        "name": "Jonathan Doe",
+        "phone": 5535433453,
+        "email": "jonathan@thedoecompany.com"
+      },
+      "details": {
+        "address": "Obrero Mundia 686, Atenor Salas",
+        "zipcode": "03634",
+        "city": "Ciudad de México",
+        "location": [-99.1472499, 19.3774119]
+      },
+      "price": 1800000
+    },
+    {
+      "id": 4,
+      "owner": {
+        "name": "Jannet Doe",
+        "phone": 5535433534,
+        "email": "jannet@thedoecompany.com"
+      },
+      "details": {
+        "address": "Tonala 10, Roma Norte",
+        "zipcode": "03612",
+        "city": "Ciudad de México",
+        "location": [-99.1472499, 19.3774119]
+      },
+      "price": 1950000
     }
   ]
 }
