@@ -1,0 +1,85 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.Edit-Form {
+  background-color: #ffffff;
+  width: 50%;
+  max-width: 500px;
+  min-width: 360px;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.Edit-Form .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.Edit-Form .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.Edit-Form .header p {
+  font-size: 1.1em;
+}
+
+.Edit-Form button {
+  padding: 5px 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.Edit-Form .content {
+  padding: 10px 20px;
+}
+
+.Edit-Form .form {
+  min-width: 100%;
+  font-size: 1.1em;
+}
+
+.Edit-Form .form label {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.Edit-Form .form span {
+  flex-shrink: 1;
+}
+
+.Edit-Form .form input {
+  flex: 1;
+  width: 100%;
+  margin-left: 10px;
+  padding: 3px 10px;
+  font-size: 1.1em;
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.Edit-Form .form input:focus {
+  border-bottom: 2px solid #0361e4;
+}
+
+.Edit-Form .footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 20px 10px 20px;
+}

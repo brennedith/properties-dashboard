@@ -8,10 +8,15 @@ import Header from './components/Header';
 import Content from './components/Content';
 import Properties from './components/Properties';
 
-function PropertiesPage() {
+function PropertiesPage({ history }) {
   const { dispatch } = useContext(AppContext);
 
   useEffect(() => {
+    dispatch({
+      type: 'REGISTER_HISTORY',
+      payload: history
+    });
+
     PropertiesProvider.getAll()
       .then(({ data }) => {
         dispatch({

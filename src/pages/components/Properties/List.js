@@ -3,16 +3,15 @@ import React, { useContext } from 'react';
 import AppContext from '../../../services/context';
 
 import './List.css';
-
-const PropertyRow = ({ property }) => {
+const PropertyRow = ({ property, history }) => {
   const { id, details, owner, price } = property;
-
   const priceTag = `$${price.toLocaleString()}`;
 
-  const editUrl = `/edit/${id}`;
+  const editUrl = `/edit/${id}/property`;
   const redirectToEdit = e => {
     e.preventDefault();
-    // TODO: Redirect to edit page
+
+    history.push(editUrl);
   };
 
   return (
@@ -33,10 +32,10 @@ const PropertyRow = ({ property }) => {
 
 const Properties = () => {
   const { state } = useContext(AppContext);
-  const { filteredProperties } = state;
+  const { filteredProperties, history } = state;
 
   const propertiesRows = filteredProperties.map(property => (
-    <PropertyRow key={property.id} property={property} />
+    <PropertyRow key={property.id} property={property} history={history} />
   ));
 
   return (
